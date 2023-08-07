@@ -8,6 +8,22 @@ program Shapes;{
 
 import StandardInput; StandardOutput;
 
+function getInternalChar: char;
+var c: char;
+begin
+	write('Internal character?: ');
+	readln(c);
+	getInternalChar:=c;
+end;
+
+function getExternalChar: char;
+var c: char;
+begin
+	write('External character?: ');
+	readln(c);
+	getExternalChar:=c;
+end;
+
 function getSize(min, max: integer): integer;
 var size: integer;
 begin
