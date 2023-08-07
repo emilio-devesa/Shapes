@@ -7,6 +7,9 @@ program Shapes;{
 }
 
 import StandardInput; StandardOutput;
+		Square qualified;
+		Triangle qualified;
+		Rhombus qualified;
 
 function getInternalChar: char;
 var c: char;
