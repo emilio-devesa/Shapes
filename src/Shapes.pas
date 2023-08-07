@@ -8,6 +8,18 @@ program Shapes;{
 
 import StandardInput; StandardOutput;
 
+function getSize(min, max: integer): integer;
+var size: integer;
+begin
+	repeat
+		write('Size? (min=',min:1,', max=',max:2, '): ');
+		readln(size);
+		if (size<min) or (max<size)
+		then write('Size is not valid.');
+	until (min<=size) and (size<=max);
+	getSize:=size;
+end;
+
 function mainMenu: integer;
 var opc: integer;
 begin
