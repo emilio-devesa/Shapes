@@ -56,9 +56,9 @@ end;
 function printShape(option: integer): integer;
 begin
 	case (option) of
-		1: writeln('Print a square');
-		2: writeln('Print a triangle');
-		3: writeln('Print a rhombus');
+		1: Square.print(getSize(2,80), getInternalChar, getExternalChar);
+		2: Triangle.print(getSize(3,40), getInternalChar, getExternalChar);
+		3: Rhombus.print(getSize(3,80), getInternalChar, getExternalChar);
 		0: {exit};
 	end;
 	printShape:=option;
