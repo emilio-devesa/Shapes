@@ -2,3 +2,4 @@
 *.o
 *.gpi
 *a.out
+bin/
