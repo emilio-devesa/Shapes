@@ -4,6 +4,15 @@ Command Line program written in Pascal ISO 10206 (Extended Pascal) that draws ge
 ## Blog post
 https://emiliodevesa.wordpress.com/2023/08/04/shapes/
 
+
+## How to use it
+Compile using:
+	make all
+
+Then execute:
+	bin/Shapes
+
+
 ## Compilation
 Uses GNU Pascal compiler:
 		make all
