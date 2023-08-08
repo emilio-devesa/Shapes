@@ -1,4 +1,5 @@
 # Shapes
+![Shapes](https://emiliodevesa.files.wordpress.com/2023/08/shapes.png)
 Command Line program written in Pascal ISO 10206 (Extended Pascal) that draws geometric shapes
 
 ## Blog post
