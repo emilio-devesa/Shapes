@@ -10,15 +10,20 @@ https://emiliodevesa.wordpress.com/2023/08/04/shapes/
 
 ## How to use it
 Compile using:
+
 	$ make all
 
 Then execute:
+
 	$ bin/Shapes
 
 
 ## Compilation
 Uses GNU Pascal compiler:
+
 	$ make all
 
 Clean files:
+
 	$ make clean
+
