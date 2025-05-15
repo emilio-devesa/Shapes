@@ -1,6 +1,6 @@
-module Square;
+module square;
 
-export Square = (print);
+export square = (print);
 
 import StandardOutput;
 

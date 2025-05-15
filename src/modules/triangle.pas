@@ -1,6 +1,6 @@
-module Triangle;
+module triangle;
 
-export Triangle = (print);
+export triangle = (print);
 
 import StandardOutput;
 

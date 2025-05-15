@@ -1,6 +1,6 @@
-module Rhombus;
+module rhombus;
 
-export Rhombus = (print);
+export rhombus = (print);
 
 import StandardOutput;
 

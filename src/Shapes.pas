@@ -7,9 +7,9 @@ program Shapes;{
 }
 
 import StandardInput; StandardOutput;
-		Square qualified;
-		Triangle qualified;
-		Rhombus qualified;
+		square qualified;
+		triangle qualified;
+		rhombus qualified;
 
 function getInternalChar: char;
 var c: char;
@@ -59,9 +59,9 @@ end;
 function printShape(option: integer): integer;
 begin
 	case (option) of
-		1: Square.print(getSize(2,80), getInternalChar, getExternalChar);
-		2: Triangle.print(getSize(3,40), getInternalChar, getExternalChar);
-		3: Rhombus.print(getSize(3,80), getInternalChar, getExternalChar);
+		1: square.print(getSize(2,80), getInternalChar, getExternalChar);
+		2: triangle.print(getSize(3,40), getInternalChar, getExternalChar);
+		3: rhombus.print(getSize(3,80), getInternalChar, getExternalChar);
 		0: {exit};
 	end;
 	printShape:=option;
